@@ -1,0 +1,28 @@
+:root{
+	--brown-color: #291e1e;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.page-header{
+	background-color: var(--brown-color);
+	padding: 25px 0;
+}
+
+.search-form{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.text-search{
+	width: 80%;
+    border-radius: 10px;
+}
+
+.button-search{
+	width: 19%;
+	border-radius: 10px;
+}
