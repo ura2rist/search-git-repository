@@ -7,6 +7,11 @@ body{
 	margin: 0;
 }
 
+ul{
+	list-style: none;
+	padding: 0;
+}
+
 .page-header{
 	background-color: var(--brown-color);
 	padding: 25px 0;
@@ -18,11 +23,29 @@ body{
 }
 
 .text-search{
-	width: 80%;
+	width: 100%;
     border-radius: 10px;
 }
 
-.button-search{
-	width: 19%;
-	border-radius: 10px;
+.title-list{
+	text-align: center;
+}
+
+.result-view{
+	margin: 0 auto;
+}
+
+.result-view td{
+	padding: 4px 7px;
+}
+
+.list-pagination{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.list-pagination li{
+	margin-left: 10px;
+	margin-right: 10px;
 }
